@@ -1,1 +1,306 @@
-测试测试测试22222
+// Compiled from EnumResult.java (version 1.8 : 52.0, super bit)
+// Signature: Ljava/lang/Enum<Lcom/sinopec/smcc/base/exception/model/EnumResult;>;
+public final enum com.sinopec.smcc.base.exception.model.EnumResult {
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult UNKONW_ERROR;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult SUCCESS;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult ERROR;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult UNKONW_PK_ERROR;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult UNKONW_BACK_PK_ERROR;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult UNKONW_REQUEST_OBJ_ERROR;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult LINKEDID_ERROR;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult DELETE_STATUS_ERROR;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult HAS_CHILD_CHECK_STATUS_ERROR;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult VALID_PERMISSION_ERROR;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult COLUMN_IS_NULL;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult COLUMN_IS_TO_LONG;
+  
+  // Field descriptor #52 Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  public static final enum com.sinopec.smcc.base.exception.model.EnumResult FILE_IS_ERROR;
+  
+  // Field descriptor #66 Ljava/lang/Integer;
+  private java.lang.Integer code;
+  
+  // Field descriptor #68 Ljava/lang/String;
+  private java.lang.String msg;
+  
+  // Field descriptor #70 [Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  private static final synthetic com.sinopec.smcc.base.exception.model.EnumResult[] $VALUES;
+  
+  // Method descriptor #72 ()[Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  // Stack: 1, Locals: 0
+  public static com.sinopec.smcc.base.exception.model.EnumResult[] values();
+     0  getstatic com.sinopec.smcc.base.exception.model.EnumResult.$VALUES : com.sinopec.smcc.base.exception.model.EnumResult[] [1]
+     3  invokevirtual com.sinopec.smcc.base.exception.model.EnumResult[].clone() : java.lang.Object [2]
+     6  checkcast com.sinopec.smcc.base.exception.model.EnumResult[] [3]
+     9  areturn
+      Line numbers:
+        [pc: 0, line: 7]
+  
+  // Method descriptor #76 (Ljava/lang/String;)Lcom/sinopec/smcc/base/exception/model/EnumResult;
+  // Stack: 2, Locals: 1
+  public static com.sinopec.smcc.base.exception.model.EnumResult valueOf(java.lang.String name);
+     0  ldc <Class com.sinopec.smcc.base.exception.model.EnumResult> [4]
+     2  aload_0 [name]
+     3  invokestatic java.lang.Enum.valueOf(java.lang.Class, java.lang.String) : java.lang.Enum [5]
+     6  checkcast com.sinopec.smcc.base.exception.model.EnumResult [4]
+     9  areturn
+      Line numbers:
+        [pc: 0, line: 7]
+      Local variable table:
+        [pc: 0, pc: 10] local: name index: 0 type: java.lang.String
+  
+  // Method descriptor #80 (Ljava/lang/String;ILjava/lang/Integer;Ljava/lang/String;)V
+  // Signature: (Ljava/lang/Integer;Ljava/lang/String;)V
+  // Stack: 3, Locals: 5
+  private EnumResult(java.lang.String arg0, int arg1, java.lang.Integer code, java.lang.String msg);
+     0  aload_0 [this]
+     1  aload_1 [arg0]
+     2  iload_2 [arg1]
+     3  invokespecial java.lang.Enum(java.lang.String, int) [6]
+     6  aload_0 [this]
+     7  aload_3 [code]
+     8  putfield com.sinopec.smcc.base.exception.model.EnumResult.code : java.lang.Integer [7]
+    11  aload_0 [this]
+    12  aload 4 [msg]
+    14  putfield com.sinopec.smcc.base.exception.model.EnumResult.msg : java.lang.String [8]
+    17  return
+      Line numbers:
+        [pc: 0, line: 17]
+        [pc: 6, line: 18]
+        [pc: 11, line: 19]
+        [pc: 17, line: 20]
+      Local variable table:
+        [pc: 0, pc: 18] local: this index: 0 type: com.sinopec.smcc.base.exception.model.EnumResult
+        [pc: 0, pc: 18] local: code index: 3 type: java.lang.Integer
+        [pc: 0, pc: 18] local: msg index: 4 type: java.lang.String
+  
+  // Method descriptor #85 ()Ljava/lang/Integer;
+  // Stack: 1, Locals: 1
+  public java.lang.Integer getCode();
+    0  aload_0 [this]
+    1  getfield com.sinopec.smcc.base.exception.model.EnumResult.code : java.lang.Integer [7]
+    4  areturn
+      Line numbers:
+        [pc: 0, line: 23]
+      Local variable table:
+        [pc: 0, pc: 5] local: this index: 0 type: com.sinopec.smcc.base.exception.model.EnumResult
+  
+  // Method descriptor #87 ()Ljava/lang/String;
+  // Stack: 1, Locals: 1
+  public java.lang.String getMsg();
+    0  aload_0 [this]
+    1  getfield com.sinopec.smcc.base.exception.model.EnumResult.msg : java.lang.String [8]
+    4  areturn
+      Line numbers:
+        [pc: 0, line: 27]
+      Local variable table:
+        [pc: 0, pc: 5] local: this index: 0 type: com.sinopec.smcc.base.exception.model.EnumResult
+  
+  // Method descriptor #89 ()V
+  // Stack: 6, Locals: 0
+  static {};
+      0  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+      3  dup
+      4  ldc <String "UNKONW_ERROR"> [9]
+      6  iconst_0
+      7  iconst_m1
+      8  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+     11  ldc <String "未知错误"> [11]
+     13  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+     16  putstatic com.sinopec.smcc.base.exception.model.EnumResult.UNKONW_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [13]
+     19  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+     22  dup
+     23  ldc <String "SUCCESS"> [14]
+     25  iconst_1
+     26  iconst_0
+     27  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+     30  ldc <String "成功"> [15]
+     32  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+     35  putstatic com.sinopec.smcc.base.exception.model.EnumResult.SUCCESS : com.sinopec.smcc.base.exception.model.EnumResult [16]
+     38  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+     41  dup
+     42  ldc <String "ERROR"> [17]
+     44  iconst_2
+     45  iconst_1
+     46  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+     49  ldc <String "失败"> [18]
+     51  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+     54  putstatic com.sinopec.smcc.base.exception.model.EnumResult.ERROR : com.sinopec.smcc.base.exception.model.EnumResult [19]
+     57  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+     60  dup
+     61  ldc <String "UNKONW_PK_ERROR"> [20]
+     63  iconst_3
+     64  iconst_2
+     65  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+     68  ldc <String "主键数据遗失"> [21]
+     70  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+     73  putstatic com.sinopec.smcc.base.exception.model.EnumResult.UNKONW_PK_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [22]
+     76  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+     79  dup
+     80  ldc <String "UNKONW_BACK_PK_ERROR"> [23]
+     82  iconst_4
+     83  iconst_3
+     84  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+     87  ldc <String "返回主键数据异常"> [24]
+     89  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+     92  putstatic com.sinopec.smcc.base.exception.model.EnumResult.UNKONW_BACK_PK_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [25]
+     95  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+     98  dup
+     99  ldc <String "UNKONW_REQUEST_OBJ_ERROR"> [26]
+    101  iconst_5
+    102  iconst_4
+    103  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+    106  ldc <String "请求对象错误"> [27]
+    108  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+    111  putstatic com.sinopec.smcc.base.exception.model.EnumResult.UNKONW_REQUEST_OBJ_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [28]
+    114  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+    117  dup
+    118  ldc <String "LINKEDID_ERROR"> [29]
+    120  bipush 6
+    122  iconst_5
+    123  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+    126  ldc <String "应用关联编码异常"> [30]
+    128  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+    131  putstatic com.sinopec.smcc.base.exception.model.EnumResult.LINKEDID_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [31]
+    134  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+    137  dup
+    138  ldc <String "DELETE_STATUS_ERROR"> [32]
+    140  bipush 7
+    142  bipush 6
+    144  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+    147  ldc <String "当前状态不可删除"> [33]
+    149  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+    152  putstatic com.sinopec.smcc.base.exception.model.EnumResult.DELETE_STATUS_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [34]
+    155  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+    158  dup
+    159  ldc <String "HAS_CHILD_CHECK_STATUS_ERROR"> [35]
+    161  bipush 8
+    163  bipush 7
+    165  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+    168  ldc <String "含有子节点待审数据!"> [36]
+    170  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+    173  putstatic com.sinopec.smcc.base.exception.model.EnumResult.HAS_CHILD_CHECK_STATUS_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [37]
+    176  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+    179  dup
+    180  ldc <String "VALID_PERMISSION_ERROR"> [38]
+    182  bipush 9
+    184  bipush 8
+    186  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+    189  ldc <String "你没有此操作权限!"> [39]
+    191  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+    194  putstatic com.sinopec.smcc.base.exception.model.EnumResult.VALID_PERMISSION_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [40]
+    197  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+    200  dup
+    201  ldc <String "COLUMN_IS_NULL"> [41]
+    203  bipush 10
+    205  bipush 9
+    207  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+    210  ldc <String "必填字段为空!"> [42]
+    212  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+    215  putstatic com.sinopec.smcc.base.exception.model.EnumResult.COLUMN_IS_NULL : com.sinopec.smcc.base.exception.model.EnumResult [43]
+    218  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+    221  dup
+    222  ldc <String "COLUMN_IS_TO_LONG"> [44]
+    224  bipush 11
+    226  bipush 10
+    228  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+    231  ldc <String "字符长度过长!"> [45]
+    233  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+    236  putstatic com.sinopec.smcc.base.exception.model.EnumResult.COLUMN_IS_TO_LONG : com.sinopec.smcc.base.exception.model.EnumResult [46]
+    239  new com.sinopec.smcc.base.exception.model.EnumResult [4]
+    242  dup
+    243  ldc <String "FILE_IS_ERROR"> [47]
+    245  bipush 12
+    247  bipush 11
+    249  invokestatic java.lang.Integer.valueOf(int) : java.lang.Integer [10]
+    252  ldc <String "文件错误"> [48]
+    254  invokespecial com.sinopec.smcc.base.exception.model.EnumResult(java.lang.String, int, java.lang.Integer, java.lang.String) [12]
+    257  putstatic com.sinopec.smcc.base.exception.model.EnumResult.FILE_IS_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [49]
+    260  bipush 13
+    262  anewarray com.sinopec.smcc.base.exception.model.EnumResult [4]
+    265  dup
+    266  iconst_0
+    267  getstatic com.sinopec.smcc.base.exception.model.EnumResult.UNKONW_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [13]
+    270  aastore
+    271  dup
+    272  iconst_1
+    273  getstatic com.sinopec.smcc.base.exception.model.EnumResult.SUCCESS : com.sinopec.smcc.base.exception.model.EnumResult [16]
+    276  aastore
+    277  dup
+    278  iconst_2
+    279  getstatic com.sinopec.smcc.base.exception.model.EnumResult.ERROR : com.sinopec.smcc.base.exception.model.EnumResult [19]
+    282  aastore
+    283  dup
+    284  iconst_3
+    285  getstatic com.sinopec.smcc.base.exception.model.EnumResult.UNKONW_PK_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [22]
+    288  aastore
+    289  dup
+    290  iconst_4
+    291  getstatic com.sinopec.smcc.base.exception.model.EnumResult.UNKONW_BACK_PK_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [25]
+    294  aastore
+    295  dup
+    296  iconst_5
+    297  getstatic com.sinopec.smcc.base.exception.model.EnumResult.UNKONW_REQUEST_OBJ_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [28]
+    300  aastore
+    301  dup
+    302  bipush 6
+    304  getstatic com.sinopec.smcc.base.exception.model.EnumResult.LINKEDID_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [31]
+    307  aastore
+    308  dup
+    309  bipush 7
+    311  getstatic com.sinopec.smcc.base.exception.model.EnumResult.DELETE_STATUS_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [34]
+    314  aastore
+    315  dup
+    316  bipush 8
+    318  getstatic com.sinopec.smcc.base.exception.model.EnumResult.HAS_CHILD_CHECK_STATUS_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [37]
+    321  aastore
+    322  dup
+    323  bipush 9
+    325  getstatic com.sinopec.smcc.base.exception.model.EnumResult.VALID_PERMISSION_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [40]
+    328  aastore
+    329  dup
+    330  bipush 10
+    332  getstatic com.sinopec.smcc.base.exception.model.EnumResult.COLUMN_IS_NULL : com.sinopec.smcc.base.exception.model.EnumResult [43]
+    335  aastore
+    336  dup
+    337  bipush 11
+    339  getstatic com.sinopec.smcc.base.exception.model.EnumResult.COLUMN_IS_TO_LONG : com.sinopec.smcc.base.exception.model.EnumResult [46]
+    342  aastore
+    343  dup
+    344  bipush 12
+    346  getstatic com.sinopec.smcc.base.exception.model.EnumResult.FILE_IS_ERROR : com.sinopec.smcc.base.exception.model.EnumResult [49]
+    349  aastore
+    350  putstatic com.sinopec.smcc.base.exception.model.EnumResult.$VALUES : com.sinopec.smcc.base.exception.model.EnumResult[] [1]
+    353  return
+      Line numbers:
+        [pc: 0, line: 8]
+        [pc: 95, line: 9]
+        [pc: 155, line: 10]
+        [pc: 197, line: 11]
+        [pc: 218, line: 12]
+        [pc: 260, line: 7]
+}
